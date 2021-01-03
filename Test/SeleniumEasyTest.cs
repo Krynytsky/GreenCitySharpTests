@@ -13,6 +13,7 @@ namespace SeleniumEasyTest
         {
             driver = new ChromeDriver();
             driver.Url = "https://www.seleniumeasy.com/";
+            driver.Manage().Window.Maximize();
         }
 
         [Test]
