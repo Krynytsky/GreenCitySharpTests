@@ -86,7 +86,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Test\Api\OwnSequrity\SignIn\EcoNewsCommentTest.cs" />
+    <Compile Include="Test\Api\Comments\EcoNewsCommentTest.cs" />
+    <Compile Include="Test\Api\OwnSequrity\LoginTests\SignInTests.cs" />
     <Compile Include="Test\Ui\GreenCityTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
