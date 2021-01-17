@@ -11,7 +11,7 @@ namespace GreenCityTests
         IWebDriver driver;
 
         [SetUp]
-        public void startBrowser()
+        public void StartBrowser()
         {
             ChromeOptions option = new ChromeOptions();
             option.AddArgument("--headless");
@@ -20,7 +20,7 @@ namespace GreenCityTests
         }
 
         [Test]
-        public void sighInBtnTest()
+        public void SighInBtnTest()
         {
             IWebElement signInBtn = driver.FindElement(By.XPath("//a[@role='sign in']"));
             signInBtn.Click();
