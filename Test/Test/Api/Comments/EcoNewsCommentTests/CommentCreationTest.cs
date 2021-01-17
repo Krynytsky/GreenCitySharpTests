@@ -1,14 +1,12 @@
 ﻿using NUnit.Framework;
 using RestSharp;
-using System;
-using System.IO;
 using System.Net;
 
-namespace GreenCity.Test.Api.Comments
+namespace Test.Test.Api.Comments.EcoNewsCommentTests
 {
-    class EcoNewsCommentTest
+    class CommentCreationTest
     {
-       [Test]
+        [Test]
         public void CreationEcoNewsCommentTest()
         {
             IRestClient client = new RestClient("https://greencity.azurewebsites.net/econews/comments/8790");
@@ -21,5 +19,4 @@ namespace GreenCity.Test.Api.Comments
         }
     }
 }
-
 
